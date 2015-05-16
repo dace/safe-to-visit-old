@@ -6,12 +6,23 @@
 </head>
 <body>
   
-  <h1>All Countries</h1>
-  <ul>
-    <% @countries.each do |country|%>
-      <p><li><%= country.name %> - <%= country.code %></li></p>
-    <% end %>
-  </ul>
 
+    <div class="center-block">
+      
+      <p>
+      <h1 class="text-center">Safe to Visit</h1></p>
+      <p class="text-center">Type in a country to seach for current travel warnings and alerts.</p>
+      <p>
+      
+      
+      <div class="hide">
+        <p><h1>All Countries</h1></p>
+        <ul>
+          <% @countries.each do |country|%>
+            <p><li><%= country.name %> - <%= country.code %></li></p>
+          <% end %>
+        </ul>    
+      </div>
+    </div>
 </body>
 </html>
