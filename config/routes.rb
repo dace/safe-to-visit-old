@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-  root 'home#index'
+  root 'countries#index'
 
-  get 'home/index'
-  get 'home/gov_data' => 'home#gov_data'
+  get 'countries/index'
 
   resources :articles
   resources :countries
