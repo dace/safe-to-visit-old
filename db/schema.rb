@@ -11,39 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150517062700) do
+ActiveRecord::Schema.define(version: 20150518014223) do
 
-  create_table "articles", force: :cascade do |t|
+  create_table "advisories", force: :cascade do |t|
     t.string   "title"
-    t.string   "date"
-    t.string   "url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "description"
+    t.string   "code"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "countries", force: :cascade do |t|
     t.string   "name"
     t.string   "code"
-    t.text     "alert"
-    t.text     "warning"
-    t.text     "wiki"
-    t.string   "wiki_url"
     t.string   "flag_sm_url"
     t.string   "flag_lg_url"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-  end
-
-  create_table "gov_alerts", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.text     "content"
-  end
-
-  create_table "gov_warnings", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.text     "content"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.string   "title"
+    t.string   "description"
+    t.string   "publication_date"
+    t.string   "advisory"
   end
 
 end

@@ -5,25 +5,25 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <div class="center-block text-center">
+    <p>
+      
+    </p>
+    <h1 class="text-center">Countries:</h1></p>
+    <p class="text-center">Type in a country to seach for current travel warnings and alerts.</p>
+    <p>(form field for search)</p>
+    <p>
+    
+    
 
-    <div class="center-block text-center">
-      <p>
-        <%= image_tag('map/map.jpg') %>
-      </p>
-      <h1 class="text-center">Safe to Visit</h1></p>
-      <p class="text-center">Type in a country to seach for current travel warnings and alerts.</p>
-      <p>
-      
-      
-      <div class="hide">
-        <p><h1>All Countries</h1></p>
-        <ul>
-          <% @countries.each do |country|%>
-            <p><li><%= country.name %> - <%= country.code %></li></p>
-          <% end %>
-        </ul>    
-      </div>
+    <div class="hide">
+      <p><h1>All Countries</h1></p>
+      <ul>
+        <% @countries.each do |country|%>
+          <p><li><%= country.name %> - <%= country.code %></li></p>
+        <% end %>
+      </ul>    
     </div>
+  </div>
 </body>
 </html>
