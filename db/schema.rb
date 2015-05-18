@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150518014223) do
+ActiveRecord::Schema.define(version: 20150518190526) do
 
   create_table "advisories", force: :cascade do |t|
     t.string   "title"
@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 20150518014223) do
     t.string   "description"
     t.string   "publication_date"
     t.string   "advisory"
+    t.string   "advisory_type"
   end
 
 end

@@ -9,9 +9,21 @@
     <p>
       
     </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
     <h1 class="text-center">Countries:</h1></p>
     <p class="text-center">Type in a country to seach for current travel warnings and alerts.</p>
-    <p>(form field for search)</p>
+    <p>
+      <%= form_tag countries_path, :method => 'get' do %>
+        <%= text_field_tag :search %>
+        <p><%= submit_tag "Search" %></p>
+      <% end %>
+    </p>
     <p>
     
     
