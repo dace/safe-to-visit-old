@@ -1,3 +1,55 @@
-// Place all the styles related to the Countries controller here.
+/*// Place all the styles related to the Countries controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+
+.container-fluid.warning {
+  padding: 20px 0px 20px 0px;
+  background-color: #ED193E;
+  /*background-color: #ff9e05;*/
+}
+
+.danger {
+  float: left;
+}
+
+.warning-alert {
+  color: #ffffff ;
+}
+
+.main {
+  background-color: #e5e8ec;
+}
+
+.name {
+  font-family: 'Open Sans';
+}
+
+.description {
+  font-family: 'PT Serif';
+  font-size: 16px;
+}
+
+.fine {
+  font-size: 10px;
+  color: #d0d0d0;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  background-color: #1f2533;
+  padding: 40px 0px 40px 0px;
+  text-align: center;
+}
+
+.country_heading {
+  padding: 50px 0px 50px 0px;
+}
+
+.icon {
+  padding: 0px 5px 0px 5px;
+}

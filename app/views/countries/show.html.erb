@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="../stylesheets/countries.scss" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+
   <meta charset="UTF-8">
 </head>
 <body>
-  <div class="row">
-    
+  <div class="container-fluid warning">
+    <div class="row">    
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-6 warning-alert">
+        <%= image_tag("icons/danger.png", width: 150, height: 150, class: "danger") %><P>TRAVEL WARNING<br>
+        The Department of State warns U.S. citizens against all but essential travel to Iraq. Travel within Iraq remains dangerous given the security situation.</p>
+
+        
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+
+  <div class="row">    
     <div class="col-md-3"></div>
-    
-    <div class="col-md-6">
-      <h1>
-      <%= @country.name %></h1>
-      <p><% if @country.description %>
-        <%= @country.description.html_safe %>
+    <div class="col-md-6 description">
+      <div class="country_heading">
+        <%= image_tag("flags/lg/#{@country.code.downcase}.png", width: 60) %><h1 class="name"><%= @country.name %></h1>
+      </div>
+      <% if @country.description %>
+        <p><%= @country.description.html_safe %></p>
         <% else %>
           <p>The U.S. State Department does not have any current travel advisories for <%= @country.name %>.</p>
         <% end %></p>
