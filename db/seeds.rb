@@ -916,12 +916,7 @@ countries = Country.create([
     code: 'PY', 
     flag_sm_url: 'flags/sm/', 
     flag_lg_url: 'flags/lg/'},
-   
-   {name: "People's Democratic Republic of Yemen", 
-    code: nil, 
-    flag_sm_url: 'flags/sm/', 
-    flag_lg_url: 'flags/lg/'},
-   
+    
    {name: "Peru", 
     code: 'PE', 
     flag_sm_url: 'flags/sm/', 
@@ -1081,12 +1076,7 @@ countries = Country.create([
     code: 'ZA', 
     flag_sm_url: 'flags/sm/', 
     flag_lg_url: 'flags/lg/'},
-   
-   {name: "South Georgia and the South Sandwich Islands", 
-    code: nil, 
-    flag_sm_url: 'flags/sm/', 
-    flag_lg_url: 'flags/lg/'},
-   
+  
    {name: "South Korea", 
     code: 'KR', 
     flag_sm_url: 'flags/sm/', 
@@ -1236,12 +1226,7 @@ countries = Country.create([
     code: 'UA', 
     flag_sm_url: 'flags/sm/', 
     flag_lg_url: 'flags/lg/'},
-   
-   {name: "Union of Soviet Socialist Republics", 
-    code: nil, 
-    flag_sm_url: 'flags/sm/', 
-    flag_lg_url: 'flags/lg/'},
-   
+
    {name: "United Arab Emirates", 
     code: 'AE', 
     flag_sm_url: 'flags/sm/', 
@@ -1254,11 +1239,6 @@ countries = Country.create([
    
    {name: "United States", 
     code: 'US', 
-    flag_sm_url: 'flags/sm/', 
-    flag_lg_url: 'flags/lg/'},
-   
-   {name: "Unknown or Invalid Region", 
-    code: nil, 
     flag_sm_url: 'flags/sm/', 
     flag_lg_url: 'flags/lg/'},
    
@@ -1322,8 +1302,4 @@ countries = Country.create([
     flag_sm_url: 'flags/sm/', 
     flag_lg_url: 'flags/lg/'},
    
-   {name: "Åland Islands", 
-    code: nil, 
-    flag_sm_url: 'flags/sm/', 
-    flag_lg_url: 'flags/lg/'}
 ])
