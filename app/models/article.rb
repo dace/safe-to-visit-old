@@ -16,7 +16,7 @@ DANGER_WORDS = ["abuse", "al qaeda", "alert", "armed", "army", "arrest", "assass
         
         country_articles_array.each do |article|
             if DANGER_WORDS.any? {|w| article["headline"]["main"].downcase =~ /#{w}/}
-
+              # binding.pry
               # Sets article attributes
               title = article["headline"]["main"].strip
               author = nil
@@ -40,13 +40,16 @@ DANGER_WORDS = ["abuse", "al qaeda", "alert", "armed", "army", "arrest", "assass
                 end
               end
 
-              Article.create(
+              test = Article.create(
                   title: title, 
                   author: author, 
                   published_date: published_date,
                   web_url: web_url,
-                  image_url: image_url
-                )
+                  image_url: image_url,
+                  country_id: country.id
+              )
+              # binding.pry
+              
             end
         end
       end

@@ -3,18 +3,23 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 */
 
+
 .container-fluid.warning {
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 40px 0px;
   background-color: #ED193E;
   /*background-color: #ff9e05;*/
 }
 
-.danger {
-  float: left;
-}
+
 
 .warning-alert {
   color: #ffffff ;
+  display: block;
+  text-align: center;
+  margin: auto auto;
+ /*   border: 1px;
+    border-style: solid;
+    border-color: #000;*/
 }
 
 #search {
@@ -39,9 +44,40 @@
   font-family: 'Open Sans';
 }
 
+.title {
+  font-family: "MillerDisplay Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+}
+
+.title2 {
+  font-family: "MillerDisplay Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.heading-bar {
+  margin: 0px 0px 70px 0px;
+  height: 7px;
+  background-color: #ED193E;
+}
+
+.full {
+  background-color: #333333;
+  height: 500px;
+}
+
+div .block {
+  background-color: blue;
+}
+
+
 .description {
   font-family: 'PT Serif';
   font-size: 16px;
+  margin: 20px;
 }
 
 .fine {
@@ -66,4 +102,29 @@ footer {
 
 .icon {
   padding: 0px 5px 0px 5px;
+}
+
+p {
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 200%;
+}
+
+strong {
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 200%;
+  margin-bottom: 10px;
+}
+
+.flag {
+   width: 100%;
+  height: 300px;
+  background-color: #CCC;
+}
+
+#map-canvas {
+  width: 100%;
+  height: 400px;
+  background-color: #CCC;
 }

@@ -3,11 +3,12 @@ class CountriesController < ApplicationController
     @countries = Country.all
     @articles = Article.all
     
-    Country.structure_data
-    Article.article_request
+    # Country.structure_data
+    # Article.article_request
   end
 
   def show
     @country = Country.find(params[:id])
+    @articles = Article.all
   end
 end

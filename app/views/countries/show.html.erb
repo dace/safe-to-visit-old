@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  <link href="//cloud.webtype.com/css/7d63a2ad-40f5-4ad1-b029-0c4ed87ed3ba.css" rel="stylesheet" type="text/css" />
   <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -13,21 +13,26 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" href="../stylesheets/countries.scss" />
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
 
   <meta charset="UTF-8">
 </head>
 <body>
+
+<div class="container-fluid warning">
+    <div class="row">    
+      <div class="col-md-12 flag">        
+      </div>
+    </div>
+</div>
+
   <div class="container-fluid warning">
     <div class="row">    
-      <div class="col-md-3">
-      </div>
-      <div class="col-md-6 warning-alert">
-        <%= image_tag("icons/danger.png", width: 150, height: 150, class: "danger") %><P>TRAVEL WARNING<br>
-        The Department of State warns U.S. citizens against all but essential travel to Iraq. Travel within Iraq remains dangerous given the security situation.</p>
-
-        
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <%= image_tag("icons/danger.png", width: 150, height: 150, class: "warning-alert") %>
       </div>
       <div class="col-md-3"></div>
     </div>
@@ -37,16 +42,197 @@
     <div class="col-md-3"></div>
     <div class="col-md-6 description">
       <div class="country_heading">
-        <%= image_tag("flags/lg/#{@country.code.downcase}.png", width: 60) %><h1 class="name"><%= @country.name %></h1>
-      </div>
+        <p class="title"><%= @country.name %></p><br>
+        <div class="col-md-12 heading-bar">
+        </div>
+      
       <% if @country.description %>
-        <p><%= @country.description.html_safe %></p>
+        <strong>Effective: <%= @country.publication_date %></strong>
+        <p>&nbsp;<p><%= @country.description.html_safe %></p>
         <% else %>
           <p>The U.S. State Department does not have any current travel advisories for <%= @country.name %>.</p>
-        <% end %></p>
+        <% end %>
+        </p>
+        </div>
     </div>
-    
+    <p>
+<!-- <div class="col-md-6 heading-bar">
+        </div><p> -->
     <div class="col-md-3"></div>
   </div>
+
+  <div class="row">    
+    
+    <div class="col-md-3"></div>
+    
+    <!-- <div class="col-md-6 description">
+      <h1 class="name">Recent Articles</h1>    
+      <%# @country.articles.each do |article| %>
+      
+        <%# if article.image_url %>    
+          <%#= image_url("<%= article.image_url %>") %><p>
+        <%# end %>      
+        <h2><%#= article.title %></h2><br>
+ 
+      <%# end %>
+    </div> -->
+
+    <div class="col-md-3"></div>
+  
+  </div>
+
+
+
+
+  <p class="title">Map</p><br>
+  <div id="map-canvas" class="container-fluid warning"></div>
+  
+  <div class="row">    
+    <div class="col-md-3"></div>
+    <div class="col-md-6 description">
+      <div class="country_heading">
+        <p class="title">Articles</p><br>
+        <div class="col-md-12 heading-bar">
+        </div>
+      
+      <% if @country.description %>
+        
+        <% @articles.each do |article| %>
+        
+          <% if article.image_url %>
+            <img src="http://www.nytimes.com/<%= article.image_url %>"><p>
+          <% end %>
+
+          <p class="title2"><%= article.title %></p><br>
+        <% end %>
+
+      <% end %>
+        </div>
+    </div>
+    <p>
+<!-- <div class="col-md-6 heading-bar">
+        </div><p> -->
+    <div class="col-md-3"></div>
+  </div>
+
+
 </body>
+
+<script>
+
+var geocoder;
+var map;
+var styles = [
+    {
+        "featureType": "administrative",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "lightness": 33
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#f2e5d4"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#c5dac6"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#c5c6c6"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#e4d7c6"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#fbfaf7"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#acbcc9"
+            }
+        ]
+    }
+]
+
+
+
+function initialize() {
+  geocoder = new google.maps.Geocoder();
+  var latlng = new google.maps.LatLng(-34.397, 150.644);
+  var mapOptions = {
+    zoom: 5,
+    center: latlng
+    // styles: styles
+  }
+
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  // map.setOptions({});
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+
 </html>

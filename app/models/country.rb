@@ -1,5 +1,7 @@
 class Country < ActiveRecord::Base
 
+  has_many :articles
+
   def self.request_data(link)
     Hash.from_xml(Net::HTTP.get_response(URI.parse(link)).body)
   end
