@@ -10,47 +10,48 @@ DANGER_WORDS = ["abuse", "al qaeda", "alert", "armed", "army", "arrest", "assass
     countries.each do |country|
 
       if country.advisory_type
-        link = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=#{country.name}&api-key=91d03cabd3e6f5a112f0ba6c64b3acad:15:62628395"
+        link = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=#{country.name}&api-key=ENV['NYTIMES_KEY']"
         country_articles_hash = HTTParty.get(link)
         country_articles_array = country_articles_hash["response"]["docs"]
         
         country_articles_array.each do |article|
-            if DANGER_WORDS.any? {|w| article["headline"]["main"].downcase =~ /#{w}/}
-              # binding.pry
-              # Sets article attributes
-              title = article["headline"]["main"].strip
-              author = nil
-              published_date = nil
+          if DANGER_WORDS.any? {|w| article["headline"]["main"].downcase =~ /#{w}/}
+            # binding.pry
 
-              unless article["byline"] == [ ] || article["byline"] == nil
-                author = article["byline"]["original"] 
-              end
+            # Sets article attributes
+            title = article["headline"]["main"].strip
+            author = nil
+            published_date = nil
 
-              unless article["pub_date"] == nil
-                published_date = article["pub_date"][0..9] # TODO: Month Day, Year
-              end        
-
-              web_url = article["web_url"]
-              image_url = nil
-
-              # Checks if article has a large image
-              article["multimedia"].each do |media|
-                if media["width"] == 600
-                  image_url = media["url"]
-                end
-              end
-
-              test = Article.create(
-                  title: title, 
-                  author: author, 
-                  published_date: published_date,
-                  web_url: web_url,
-                  image_url: image_url,
-                  country_id: country.id
-              )
-              # binding.pry
-              
+            unless article["byline"] == [ ] || article["byline"] == nil
+              author = article["byline"]["original"] 
             end
+
+            unless article["pub_date"] == nil
+              published_date = article["pub_date"][0..9] # TODO: Month Day, Year
+            end        
+
+            web_url = article["web_url"]
+            image_url = nil
+
+            # Checks if article has a large image
+            article["multimedia"].each do |media|
+              if media["width"] == 600
+                image_url = media["url"]
+              end
+            end  
+
+            # Create and persist this article to the database
+            Article.create(
+              title: title, 
+              author: author, 
+              published_date: published_date,
+              web_url: web_url,
+              image_url: image_url,
+              country_id: country.id
+            )
+
+          end
         end
       end
     end

@@ -3,8 +3,8 @@ class CountriesController < ApplicationController
     @countries = Country.all
     @articles = Article.all
     
-    # Country.structure_data
-    # Article.article_request
+    Country.structure_data
+    Article.article_request
   end
 
   def show
