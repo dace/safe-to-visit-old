@@ -1,36 +1,38 @@
 <body class="main">
-  <div class="center-block text-center">
-    
+<div class="container-fluid all col-xs-12">
+  
+  <div class="icon-links col-xs-3">
+    <div class="icon-row">
+      <%= image_tag("icons/danger.png", height: 45, class: "nav-icon") %><br>
+      <%= image_tag("icons/twitter.png", class: "nav-icon") %>
+      </div>
+    </p>
+  </div>
+  
+  <div class="center-block text-center col-xs-6">
     <p>&nbsp;</p>
-    <%= image_tag("map/map.png", width: 550, class: "logo") %><p>
+    <%= image_tag("map/map.png", class: "map") %><p>
+    <%= image_tag("logo/stv_logo.png", class: "logo") %><p>
 
     <p>&nbsp;</p>
-    <p><input type="text" name="search" id="search" list="country_list" placeholder="Search Countries">
+    <input type="text" name="search" id="search" list="country_list" placeholder="Search Countries">
     <p><input type="submit" name="search"></p>
-    <p><p>&nbsp;</p>
     <p>&nbsp;</p>
-    <p><%= image_tag("logo/ussd.png", width: 35, class: "icon") %>
-    <%= image_tag("logo/google.png", width: 35, class: "icon") %>
-    <%= image_tag("logo/nyt.png", width: 30, class: "icon") %></p>
+    <p>&nbsp;</p>
+    <p>
+      <%= image_tag("logo/ussd.png", width: 35, class: "icon") %>
+      <%= image_tag("logo/google.png", width: 35, class: "icon") %>
+      <%= image_tag("logo/nyt.png", width: 30, class: "icon") %>
+    </p>
 
     <p class="fine">Created with APIs from the U.S. State Department, The New York Times and Google Maps.</p>
     <p>&nbsp;</p>
+  </div>
 
-  <footer>
-    <p class="fine">
-    This web site is in no way affiliated with the U.S. State Dept. 
-    If you wish to have the most up to date <br>and accurate information please visit the official U.S. State Department website here.</p>
-  </footer>
-<div class="container-fluid"> 
-  <div class="row">
-    <!-- <div class="col-xs-6 full block">
-    </div>
-    
-    <div class="col-xs-6 full2">
-        <h1>Title2</h1>
-    </div> -->
+  <div class="col-xs-3">
+  </div>
 </div>
-</div>
+
+  
 
 </body>
-</html>
