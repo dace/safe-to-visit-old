@@ -1,0 +1,219 @@
+Start Batch
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:al.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:at.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:az.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ba.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:bd.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:bf.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:bg.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:bh.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:bo.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:bw.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ca.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:cg.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ch.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ci.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:cl.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:cn.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:cr.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:de.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:dk.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ee.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:fi.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:fm.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:fr.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:gb.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ge.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:gy.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:hn.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:hu.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:il.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:in.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ir.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:is.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:jm.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:jo.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:jp.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:km.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:la.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ls.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:lt.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:lu.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:lv.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ly.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:mc.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:mg.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:mk.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:mr.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:mv.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:mw.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ne.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ng.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:nl.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:no.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:nr.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:pe.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:pl.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:pw.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:qa.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:se.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:so.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:st.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:sy.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:tg.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:th.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:tn.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:to.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:tr.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:tw.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ua.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:vc.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ve.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:vn.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+File: "Macintosh HD:Users:dace:Desktop:safe-to-visit:app:assets:images:flags:lg:ws.png"
+Error: The command "Sharpen" is not currently available. (-25920)
+
+End Batch
