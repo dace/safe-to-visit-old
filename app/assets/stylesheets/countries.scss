@@ -37,7 +37,34 @@
 }
 
 .main {
-  background-color: #e5e8ec;
+  /*background-color: #e5e8ec;*/
+  /*background-image: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  color-stop(0, #F7F7F7),
+  color-stop(1, #B5BEC7)
+);
+background-image: -o-linear-gradient(bottom, #F7F7F7 0%, #B5BEC7 100%);
+background-image: -moz-linear-gradient(bottom, #F7F7F7 0%, #B5BEC7 100%);
+background-image: -webkit-linear-gradient(bottom, #F7F7F7 0%, #B5BEC7 100%);
+background-image: -ms-linear-gradient(bottom, #F7F7F7 0%, #B5BEC7 100%);
+background-image: linear-gradient(to bottom, #F7F7F7 0%, #B5BEC7 100%);*/
+
+background-image: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  color-stop(0, #F5F5F5),
+  color-stop(1, #B2C4D4)
+);
+background-image: -o-linear-gradient(bottom, #F5F5F5 0%, #B2C4D4 100%);
+background-image: -moz-linear-gradient(bottom, #F5F5F5 0%, #B2C4D4 100%);
+background-image: -webkit-linear-gradient(bottom, #F5F5F5 0%, #B2C4D4 100%);
+background-image: -ms-linear-gradient(bottom, #F5F5F5 0%, #B2C4D4 100%);
+background-image: linear-gradient(to bottom, #F5F5F5 0%, #B2C4D4 100%);
+
+
 }
 
 .name {
