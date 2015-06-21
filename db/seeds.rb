@@ -157,16 +157,6 @@ countries = Country.create([
     flag_sm_url: 'flags/sm/', 
     flag_lg_url: 'flags/lg/'},
    
-   {name: "British Antarctic Territory", 
-    code: nil, 
-    flag_sm_url: 'flags/sm/', 
-    flag_lg_url: 'flags/lg/'},
-   
-   {name: "British Indian Ocean Territory", 
-    code: 'IO', 
-    flag_sm_url: 'flags/sm/', 
-    flag_lg_url: 'flags/lg/'},
-   
    {name: "British Virgin Islands", 
     code: nil, 
     flag_sm_url: 'flags/sm/', 
@@ -332,11 +322,6 @@ countries = Country.create([
     flag_sm_url: 'flags/sm/', 
     flag_lg_url: 'flags/lg/'},
    
-   {name: "East Germany", 
-    code: nil, 
-    flag_sm_url: 'flags/sm/', 
-    flag_lg_url: 'flags/lg/'},
-   
    {name: "Ecuador", 
     code: 'EC', 
     flag_sm_url: 'flags/sm/', 
@@ -404,16 +389,6 @@ countries = Country.create([
    
    {name: "French Polynesia", 
     code: 'PF', 
-    flag_sm_url: 'flags/sm/', 
-    flag_lg_url: 'flags/lg/'},
-   
-   {name: "French Southern Territories", 
-    code: 'TF', 
-    flag_sm_url: 'flags/sm/', 
-    flag_lg_url: 'flags/lg/'},
-   
-   {name: "French Southern and Antarctic Territories", 
-    code: nil, 
     flag_sm_url: 'flags/sm/', 
     flag_lg_url: 'flags/lg/'},
    

@@ -11,6 +11,7 @@ DANGER_WORDS = ["abuse", "al qaeda", "alert", "armed", "army", "arrest", "assass
 
       if country.advisory_type
         link = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=#{country.name}&api-key=ENV['NYTIMES_KEY']"
+        binding.pry
         country_articles_hash = HTTParty.get(link)
         country_articles_array = country_articles_hash["response"]["docs"]
         

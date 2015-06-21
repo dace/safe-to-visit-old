@@ -4,6 +4,7 @@ class CountriesController < ApplicationController
     @articles = Article.all
     
     Country.structure_data
+    # Country.geolocation
     Article.article_request
   end
 

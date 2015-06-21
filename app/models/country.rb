@@ -36,6 +36,32 @@ class Country < ActiveRecord::Base
     end
   end
 
+  # def self.geolocation
+    
+  #   @countries = Country.all
+
+  #   @countries.each do |country|
+      
+      
+  #     # Geolocation through Google Maps from Country / Region Name
+  #     location = HTTParty.get("https://maps.googleapis.com/maps/api/geocode/json?address=#{country.name.split.join("+")}")
+      
+  #     if location
+  #       latitude = location["results"][0]["geometry"]["location"]["lat"]
+  #       longitude = location["results"][0]["geometry"]["location"]["lng"]
+
+  #       country.update(
+  #         latitude: latitude,
+  #         longitude: longitude
+  #         )
+  #     end
+
+  #   end
+
+  #   binding.pry
+  # end
+
+
   def show
     @country = Country.find(params[:id])
   end
