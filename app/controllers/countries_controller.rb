@@ -3,9 +3,9 @@ class CountriesController < ApplicationController
     @countries = Country.all
     @articles = Article.all
     
-    Country.structure_data
+    # Country.structure_data
     # Country.geolocation
-    Article.article_request
+    # Article.article_request
   end
 
   def show

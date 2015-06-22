@@ -3,19 +3,15 @@
 one:
   name: MyString
   code: MyString
-  alert: MyText
-  warning: MyText
-  wiki: MyText
-  wiki_url: MyString
   flag_sm_url: MyString
   flag_lg_url: MyString
+  latitude: 
+  longitude: 
 
 two:
   name: MyString
   code: MyString
-  alert: MyText
-  warning: MyText
-  wiki: MyText
-  wiki_url: MyString
   flag_sm_url: MyString
   flag_lg_url: MyString
+  latitude: 
+  longitude: 
