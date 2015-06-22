@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :advisories
   root 'countries#index'
 
   get 'countries/index'

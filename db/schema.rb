@@ -24,7 +24,4 @@ ActiveRecord::Schema.define(version: 20150606221209) do
     t.integer  "country_id"
   end
 
-# Could not dump table "countries" because of following NoMethodError
-#   undefined method `[]' for nil:NilClass
-
 end
